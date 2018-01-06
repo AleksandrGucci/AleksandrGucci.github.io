@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>Geography</title>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jQuizler.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jQuizler.css" />
+
+    <script type="text/javascript">
+            var questions = [
+            {
+                type: "choose",
+                question: "<h3>Столица Германии - ...</h3>",
+                answers: [
+                    "Ганновер",
+                    "Брюссель",
+                    "Берлин",
+                    "Вильнюс",
+                    "Мюнхен"
+                ],
+                correct: [3]
+            },
+	       {
+               type: "choose",
+               question: "<h3>Столица Франции - ...</h3>",
+               answers: [
+                   "Скопье",
+                   "Париж",
+                   "Вильнюс",
+                   "Франкфурт"
+            ],
+               correct: [2]
+           },
+            {
+            type: "choose",
+            question: "<h3>Столица Люксембурга - ...</h3>",
+            answers: [
+                "Люксембург",
+                "Прага",
+                "Гренобль",
+                "Мюнхен"
+            ],
+            correct: [1]
+            },
+	       {
+               type: "choose",
+                question: "<h3>Столица Великобритании - ...</h3>",
+                answers: [
+                    "Ливерпуль",
+                    "Монреаль",
+                    "Лондон",
+                    "Лиссабон"
+                ],
+               correct: [3]
+           },
+	       {
+                type: "choose",
+                question: "<h3>Столица Македонии?</h3>",
+                answers: [
+                    "Скопье",
+                    "Спартанберг",
+                    "Оттава",
+                    "Рим"
+            ],
+               correct: [1]
+           },
+            {
+                type: "choose",
+                question: "<h3>Столица Алжира - ...</h3>",
+                answers: [
+                    "Хараре",
+                    "Алжир",
+                    "Претория",
+			         "Мапуто"
+                ],
+            correct: [2]
+            },
+	{
+            type: "choose",
+            question: "<h3>Столица Соединенных Штатов Америки - ...</h3>",
+            answers: [
+                "Нью-Йорк",
+                "Вашингтон",
+                "Йоханнесбург",
+			     "Атланта"
+            ],
+            correct: [2]
+        },
+	   {
+        type: "choose",
+        question: "<h3>Столица Израиля?</h3>",
+        answers: [
+            "Тель-Авив",
+            "Иерусалим",
+			"Хайфа",
+			"Ашдод"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Столица Чехии - ...</h3>",
+        answers: [
+            "Бонн",
+            "Прага",
+            "Брно",
+			"Острава"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Столица Молдовы - ...</h3>",
+        answers: [
+            "Кишинёв",
+            "Яссы",
+            "Житомир",
+			"Лейпциг"
+        ],
+        correct: [1]
+    },
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест на тему: "Столицы государств"</h3>
+		<p><img src="images/st.png" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>
