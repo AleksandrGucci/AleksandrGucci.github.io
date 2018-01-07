@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>Physics</title>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jQuizler.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jQuizler.css" />
+
+    <script type="text/javascript">
+            var questions = [
+            {
+                type: "choose",
+                question: "<h3>Физика - это</h3>",
+                answers: [
+                    "наука о животных",
+                    "наука о компьютерах",
+                    "наука о природе",
+                    "наука о звездах"
+                ],
+                correct: [3]
+            },
+	       {
+               type: "choose",
+               question: "<h3>Физическое тело - это</h3>",
+               answers: [
+                   "Твердый предмет",
+                   "Любой предмет",
+                   "Жидкость",
+                   "Пар"
+            ],
+               correct: [2]
+           },
+            {
+            type: "choose",
+            question: "<h3>Атомы - это</h3>",
+            answers: [
+                "Наименьшая частица",
+                "Наибольшая частица",
+                "Средняя частица"
+            ],
+            correct: [1]
+            },
+	       {
+               type: "choose",
+                question: "<h3> Шкала - это</h3>",
+                answers: [
+                    "Штрихи",
+                    "Тело",
+                    "Наибольшая частица"
+                ],
+               correct: [1]
+           },
+	       {
+                type: "choose",
+                question: "<h3>Погрешность бывает - </h3>",
+                answers: [
+                    "Большая и маленькая",
+                    "Абсолютная и относительная",
+                    "Простая и сложная"
+            ],
+               correct: [2]
+           },
+            {
+                type: "choose",
+                question: "<h3>Самая большая и маленькая приставка - </h3>",
+                answers: [
+                    "Кило и Санти",
+                    "Мега и Мили",
+                    "Гига и Нано",
+			         "Кило и Микро"
+                ],
+            correct: [3]
+            },
+	{
+            type: "choose",
+            question: "<h3>Есть мензурка, ее измерение в мл. ВГ = 300, НГ = 400, N = 4. Определите ц,д и абсолютную погрешность. </h3>",
+            answers: [
+                "25мл/дел, 12.5мл/дел",
+                "50мл/дел, 25мл/дел",
+                "15мл/дел, 7.5мл/дел"
+            ],
+            correct: [1]
+        },
+	   {
+        type: "choose",
+        question: "<h3>Есть амперметр, его измерение в А. ВГ = 2, НГ = 1, N = 5. Определите ц.д.</h3>",
+        answers: [
+            "0.20A",
+            "0.30A",
+			"0.15A",
+			"0.50A"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Молекулы всегда находятся в ...</h3>",
+        answers: [
+            "стойке",
+            "движении"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Молекулы бывают - ...</h3>",
+        answers: [
+            "Жидкие",
+            "Твердые",
+            "Газообразные",
+			"Все варианты верны"
+        ],
+        correct: [4]
+    },
+    {
+        type: "choose",
+        question: "<h3>Молекулы бывают - ...</h3>",
+        answers: [
+            "Жидкие",
+            "Твердые",
+            "Газообразные",
+			"Все варианты верны"
+        ],
+        correct: [4]
+    },
+    {
+        type: "choose",
+        question: "<h3>5кН = ...</h3>",
+        answers: [
+            "5 * 10^3H",
+            "5 * 10^6H",
+            "5 * 10^-3H",
+			"5 * 20^3H"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Движение - изменение положение тела. Какие виды движения бывают?</h3>",
+        answers: [
+            "Прямолинейное",
+            "Криволинейное",
+            "Оба варианта верны"
+        ],
+        correct: [3]
+    },
+    {
+        type: "choose",
+        question: "<h3>1м/c в км/ч = ...</h3>",
+        answers: [
+            "3.6км/ч",
+            "10.36км/ч",
+            "7км/ч",
+			"1.6км/ч"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Что значит v,l,t?</h3>",
+        answers: [
+            "Скорость, расстояние, время",
+            "Масса, объем, расстояние"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Что такое p?</h3>",
+        answers: [
+            "Масса",
+            "Плотность",
+            "Скорость"
+        ],
+        correct: [2]
+    },
+    {
+        type: "choose",
+        question: "<h3>Формула плотности = ...</h3>",
+        answers: [
+            "p = m/v",
+            "v = m/p",
+            "m = pv",
+        ],
+        correct: [1]
+    },
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест на тему: "Физика"</h3>
+		<p><img src="images/st.png" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>
